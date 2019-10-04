@@ -91,5 +91,5 @@ for (const auto &[species, count] : animal_population) {
 	std::cout << "There are " << count << " " << species
 		<< "on this planet.\n";
 ```
-This particular example works because when we iterate over an std::map conatainer, we get the std::pair<const key_type, value type> nodes on every iteration.
+This particular example works because when we iterate over an std::map container, we get the std::pair<const key_type, value type> nodes on every iteration.
 Exactly those nodes are unpacked using the structured bindings feature (key_type is the 'species' string and value_type is the population count size_t) in order to access them individually in the loop body.
