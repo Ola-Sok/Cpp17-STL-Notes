@@ -6,7 +6,7 @@ Can unpack:
 - std::map
 - fundamental STL data structures
 
-Structured bindings combine automatic type deduction and syntactic sugar, which serves extracting and assigning needed values to individual variables. Number of variables to bind to must agree with the number of returned values.
+Structured bindings combine automatic type deduction and syntactic sugar, which serve for the purpose of extracting and assigning needed values to individual variables. The number of variables to bind to must agree with the number of returned values.
 
 ### std::tuple
 ```C++
@@ -19,7 +19,7 @@ const auto [name, valid_time, price = stock_info("INTC");
 ```
 ### std::pair
 ```C++
-//unction prototype:
+//function prototype:
 std::pair<int, int> divide_remainder (int dividend, int divisor);
 
 //accessing the individual values of the result of a function with STRUCTURED BINDING
