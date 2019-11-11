@@ -74,4 +74,8 @@ Code:
     }
 ```
 As you've seen, using dynamic memory comes with most caution and warning signs. This is why in C++ there are special facilities to make this easier, and no one is expected to write the code I've written above.
-Next topic: proper memory management in C++.
+
+##### Source: https://stackoverflow.com/a/34549788/9548903
+
+
+#### Next topic: proper memory management in C++.
